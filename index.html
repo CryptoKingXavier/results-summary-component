@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="corner-color.css">
+</head>
+<body>
+
+    <main>
+        <section class="container">
+            <section class="result">
+                <h4>Your Result</h4>
+                
+                <div id="progress">
+                    <span id="progress-top">
+                    </span>
+                    <span id="progress-bottom">
+                        of 100
+                    </span>
+                </div>
+                
+                <h2 id="comment">Great</h2>
+                <aside>
+                    You scored higher than 65% of the people who have taken these tests.
+                </aside>
+                
+            </section>
+            <section class="summary">
+                <h4>Summary</h4>
+
+                <div id="reaction" class="item">
+                    <div id="rxn-top-left" class="corner"></div>
+                    <div id="rxn-top-right" class="corner"></div>
+                    <div id="rxn-bottom-right" class="corner"></div>
+                    <div id="rxn-bottom-left" class="corner"></div>
+                    <div class="content">
+                        <img id="rxn-svg" alt="rxn-img" class="icon">
+                        <span id="rxn-title" class="title"></span>
+                        <span class="score">
+                            <span id="rxn-score" class="left-score"></span>
+                            <span class="divider">/</span>
+                            <span class="right-score">100</span>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="memory" class="item">
+                    <div id="mem-top-left" class="corner"></div>
+                    <div id="mem-top-right" class="corner"></div>
+                    <div id="mem-bottom-right" class="corner"></div>
+                    <div id="mem-bottom-left" class="corner"></div>
+                    <div class="content">
+                        <img id="mem-svg" alt="rxn-img" class="icon">
+                        <span id="mem-title" class="title"></span>
+                        <span class="score">
+                            <span id="mem-score" class="left-score"></span>
+                            <span class="divider">/</span>
+                            <span class="right-score">100</span>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="verbal" class="item">
+                    <div id="vbl-top-left" class="corner"></div>
+                    <div id="vbl-top-right" class="corner"></div>
+                    <div id="vbl-bottom-right" class="corner"></div>
+                    <div id="vbl-bottom-left" class="corner"></div>
+                    <div class="content">
+                        <img id="vbl-svg" alt="rxn-img" class="icon">
+                        <span id="vbl-title" class="title"></span>
+                        <span class="score">
+                            <span id="vbl-score" class="left-score"></span>
+                            <span class="divider">/</span>
+                            <span class="right-score">100</span>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="visual" class="item">
+                    <div id="vsl-top-left" class="corner"></div>
+                    <div id="vsl-top-right" class="corner"></div>
+                    <div id="vsl-bottom-right" class="corner"></div>
+                    <div id="vsl-bottom-left" class="corner"></div>
+                    <div class="content">
+                        <img id="vsl-svg" alt="rxn-img" class="icon">
+                        <span id="vsl-title" class="title"></span>
+                        <span class="score">
+                            <span id="vsl-score" class="left-score"></span>
+                            <span class="divider">/</span>
+                            <span class="right-score">100</span>
+                        </span>
+                    </div>
+                </div>
+
+                <button id="btn">Continue</button>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Kaleb J. Azunobi</a>.
+    </footer>
+
+    <script src="datagen.js"></script>
+</body>
+</html>
+

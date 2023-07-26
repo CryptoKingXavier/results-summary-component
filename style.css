@@ -1,0 +1,339 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url('https://fonts.google.com/specimen/Hanken+Grotesk');
+}
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url('../assets/fonts/static/HankenGrotesk-Bold.ttf');
+    font-weight: bold;
+}
+
+* {
+    font-family: Hanken Grotesk;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline-style: none;
+    -ms-overflow-style: none;
+}
+
+
+.container {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid gold;
+    display: flex;
+    margin-top: 5rem;
+    height: fit-content;
+    box-shadow: 3px 4px 10px 3px hsla(0, 59%, 41%, 20%);
+    border-radius: 20px;
+}
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.result:hover {
+    background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+
+.result h4 {
+    color: hsla(0, 0%, 100%, 70%);
+    padding-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+#progress {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    position: relative;
+    border-radius: 50%;
+    width: 55%;
+    height: auto;
+    padding-top: 55%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#progress:hover {
+    transform: scale(1.15);
+    background: linear-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+}
+
+#progress-top {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#progress-bottom {
+    position: absolute;
+    top: 67.5%;
+    left: 40%;
+    color: hsla(0, 0%, 100%, 40%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#comment {
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+aside {
+    color: hsla(0, 0%, 100%, 70%);
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+
+.summary {
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    box-shadow: 3px 4px 50px 1px hsla(0, 0%, 83%, 20%);
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    margin-top: 0;
+}
+
+.summary h4 {
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-left: 20px;
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+}
+
+.item {
+    position: relative;
+    border-radius: 5px;
+    max-width: 300;
+}
+
+#reaction {
+    background-color: #ffaaaa70;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#memory {
+    background-color: hsla(39, 100%, 56%, 30%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 30%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 30%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corner {
+    position: absolute;
+}
+
+#reaction .corner, #memory .corner, #visual .corner, #verbal .corner {
+    background: none;
+    height: 10px;
+    width: 10px;
+}
+
+#rxn-top-left, #mem-top-left, #vbl-top-left, #vsl-top-left {
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 0;
+}
+
+
+#rxn-top-right, #mem-top-right, #vbl-top-right, #vsl-top-right {
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 0 0;
+}
+
+#rxn-bottom-right, #mem-bottom-right, #vbl-bottom-right, #vsl-bottom-right {
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 5px 0;
+}
+
+#rxn-bottom-left, #mem-bottom-left, #vbl-bottom-left, #vsl-bottom-left {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0 5px;
+}
+
+.content {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    height: 24;
+    width: 24;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#reaction .title {
+    color: #ff7777;
+}
+
+#memory .title {
+    color: hsla(39, 100%, 56%, 70%);
+}
+
+#verbal .title {
+    color: hsla(166, 100%, 37%, 70%);
+}
+
+#visual .title {
+    color: hsla(234, 85%, 45%, 70%);
+}
+
+.score {
+    color: #444444;
+}
+
+.score .left-score {
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.score .right-score {
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+}
+
+#btn {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 30px;
+    width: 70%;
+    font-size: 20px;
+}
+
+#btn:hover {
+    background-color: crimson;
+    font-style: italic;
+    color: gold;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: auto;
+    margin-top: 1rem;
+    clear: both;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    
+    body {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2rem;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+
+    .container {
+        top: 0;
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: 100vw;
+        height: fit-content;
+        margin: auto;
+        display: block;
+        margin-left: 0;
+    }
+
+    .summary, .result {
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .summary {
+        top: 0;
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .container > section[class="result"] {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #progress-bottom {
+        left: 38%;
+    }
+
+    .result > h4 {
+        font-size: 22px;
+        margin-top: 1rem;
+    }
+
+    aside {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 5px;
+        font-style: italic;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 1rem;
+    }
+}

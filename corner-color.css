@@ -1,0 +1,96 @@
+#rxn-top-left, #rxn-top-right, #rxn-bottom-left, #rxn-bottom-right, #mem-top-left, #mem-top-right, #mem-bottom-left, #mem-bottom-right, #vsl-top-left, #vsl-top-right, #vsl-bottom-left, #vsl-bottom-right, #vbl-top-left, #vbl-top-right, #vbl-bottom-left, #vbl-bottom-right {
+    opacity: 0.4;
+}
+
+#reaction:hover, #memory:hover, #visual:hover, #verbal:hover {
+    transform: scale(1.1);
+    font-size: 18px;
+}
+
+#reaction:hover #rxn-title, #memory:hover #mem-title, #visual:hover #vsl-title, #verbal:hover #vbl-title {
+    font-size: 22px;
+}
+
+/* Reaction */
+#rxn-top-left {
+    border-top: 2px solid hsl(0, 100%, 67%);
+    border-left: 2px solid hsl(0, 100%, 67%);
+}
+
+#rxn-top-right {
+    border-top: 2px solid hsl(0, 100%, 67%);
+    border-right: 2px solid hsl(0, 100%, 67%);
+}
+
+#rxn-bottom-right {
+    border-bottom: 2px solid hsl(0, 100%, 67%);
+    border-right: 2px solid hsl(0, 100%, 67%);
+}
+
+#rxn-bottom-left {
+    border-bottom: 2px solid hsl(0, 100%, 67%);
+    border-left: 2px solid hsl(0, 100%, 67%);
+}
+
+/* Memory */
+#mem-top-left {
+    border-top: 2px solid hsl(39, 100%, 56%);
+    border-left: 2px solid hsl(39, 100%, 56%);
+}
+
+#mem-top-right {
+    border-top: 2px solid hsl(39, 100%, 56%);
+    border-right: 2px solid hsl(39, 100%, 56%);
+}
+
+#mem-bottom-right {
+    border-bottom: 2px solid hsl(39, 100%, 56%);
+    border-right: 2px solid hsl(39, 100%, 56%);
+}
+
+#mem-bottom-left {
+    border-bottom: 2px solid hsl(39, 100%, 56%);
+    border-left: 2px solid hsl(39, 100%, 56%);
+}
+
+/* Verbal */
+#vbl-top-left {
+    border-top: 2px solid hsl(166, 100%, 37%);
+    border-left: 2px solid hsl(166, 100%, 37%);
+}
+
+#vbl-top-right {
+    border-top: 2px solid hsl(166, 100%, 37%);
+    border-right: 2px solid hsl(166, 100%, 37%);
+}
+
+#vbl-bottom-right {
+    border-bottom: 2px solid hsl(166, 100%, 37%);
+    border-right: 2px solid hsl(166, 100%, 37%);
+}
+
+#vbl-bottom-left {
+    border-bottom: 2px solid hsl(166, 100%, 37%);
+    border-left: 2px solid hsl(166, 100%, 37%);
+}
+
+/* Visual */
+#vsl-top-left {
+    border-top: 2px solid hsl(234, 85%, 45%);
+    border-left: 2px solid hsl(234, 85%, 45%);
+}
+
+#vsl-top-right {
+    border-top: 2px solid hsl(234, 85%, 45%);
+    border-right: 2px solid hsl(234, 85%, 45%);
+}
+
+#vsl-bottom-right {
+    border-bottom: 2px solid hsl(234, 85%, 45%);
+    border-right: 2px solid hsl(234, 85%, 45%);
+}
+
+#vsl-bottom-left {
+    border-bottom: 2px solid hsl(234, 85%, 45%);
+    border-left: 2px solid hsl(234, 85%, 45%);
+}
